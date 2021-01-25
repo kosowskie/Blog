@@ -1,0 +1,12 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: blog-cmap
+  namespace: labproj03
+  selfLink: /api/v1/namespaces/labproj03/configmaps/blog-cmap
+  uid: a4400e12-22c3-4217-8e62-936b16bc694c
+  resourceVersion: '173347650'
+  creationTimestamp: '2021-01-18T09:30:32Z'
+data:
+  DB_NAME: mydb
+  POSTGRES_HOST: postgresql
